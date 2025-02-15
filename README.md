@@ -27,3 +27,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 **Put a product:** Se comprueba que se ha usado cuando en la tabla se pulsa en los tres puntos de acciones y se ve "actualizar" que te lleva a un formulario con la información del producto para que la puedas editar.
 
 **Delete a product:** Se comprueba que se ha usado cuando en la tabla se pulsa en los tres puntos de acciones y se ve "eliminar", que al pulsarlo sale un alert preguntando si quieres eliminar. Al pulsar se elimina el producto.
+
+
+He utilizado la API **https://67b08e4e3fc4eef538e7bd20.mockapi.io/crud/api/productos** para manejar las operaciones CRUD de los productos.
