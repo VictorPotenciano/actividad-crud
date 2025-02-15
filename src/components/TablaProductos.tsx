@@ -47,7 +47,7 @@ const TablaProductos = ({ productos, onDeleteProducts }: TablaProps) => {
             <TableHead className="px-4 py-3 text-left text-xs font-medium text-primary-foreground uppercase tracking-wider">
               Precio
             </TableHead>
-            <TableHead className="px-4 py-3 text-left text-xs font-medium text-primary-foreground uppercase tracking-wider hidden md:table-cell">
+            <TableHead className="px-4 py-3 text-left text-xs font-medium text-primary-foreground uppercase tracking-wider hidden lg:table-cell">
               Descripción
             </TableHead>
             <TableHead className="px-4 py-3 text-left text-xs font-medium text-primary-foreground uppercase tracking-wider hidden lg:table-cell">
@@ -75,7 +75,7 @@ const TablaProductos = ({ productos, onDeleteProducts }: TablaProps) => {
                   {product.price}€
                 </TableCell>
                 <TableCell
-                  className="px-4 py-4 text-sm text-foreground max-w-[150px] md:max-w-[200px] lg:max-w-[250px] truncate"
+                  className="px-4 py-4 text-sm text-foreground max-w-[150px] md:max-w-[200px] lg:max-w-[250px] truncate hidden lg:table-cell"
                   title={product.description}
                 >
                   {product.description}
